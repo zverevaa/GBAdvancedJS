@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap");
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jost";
+}
+
+.container {
+    width: 400px;
+}
+
+.reviews {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-render {
+    box-sizing: border-box;
+    border: 3px solid #cdeee2;
+    border-radius: 15px;
+    position: relative;
+    padding-top: 7%;
+}
+.review-render p {
+    padding-left: 16px;
+    padding-right: 16px;
+    word-wrap: break-word;
+}
+
+.review-phone-model {
+    background-color: #cdeee2;
+    display: inline-block;
+    padding: 16px;
+    border-radius: 15px;
+    position: absolute;
+    top: -35px;
+    left: -3px;
+}
+
+#phonesId {
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 3px;
+    border: 0;
+    background-color: #cdeee2;
+    margin-bottom: 10px;
+}
+
+#phonesId:hover {
+    cursor: pointer;
+}
+
+.option {
+    background-color: #fff;
+}
+textarea {
+    border: 3px solid #cdeee2;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Jost";
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    background-color: #cdeee2;
+    padding: 20px 0;
+    font-family: "Jost";
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.error {
+    margin-top: 20px;
+    color: red;
+}
