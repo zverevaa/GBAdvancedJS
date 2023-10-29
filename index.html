@@ -3,31 +3,20 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <script src="1.js" defer></script>
-        <script src="2.js" defer></script>
+        <link rel="stylesheet" href="./style.css" />
         <link
             href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="./style.css" />
+
+        <title>Document</title>
     </head>
     <body>
         <div class="container">
             <div class="reviews"></div>
-            <form id="form">
-                <p>Review length: <span class="review-length"></span></p>
-                <select name="phones" id="phonesId"></select>
-                <textarea
-                    id="review"
-                    name="paragraph_text"
-                    cols="30"
-                    rows="5"
-                    placeholder="Your review"
-                ></textarea>
-                <button type="submit">Submit</button>
-                <div class="error"></div>
-            </form>
+            <button class="show-all">Show All Reviews</button>
+            <a class="add-review-link" href="./addreview.html">Add a review</a>
         </div>
+        <script src="./reviews.js"></script>
     </body>
 </html>
